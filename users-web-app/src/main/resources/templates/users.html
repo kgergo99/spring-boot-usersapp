@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>User List</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}">
+</head>
+<body>
+<div class="grid-container">
+    <div th:each="user : ${users}">
+        <div th:replace="fragments/user-fragment :: user-fragment"></div>
+    </div>
+</div>
+</body>
+</html>
