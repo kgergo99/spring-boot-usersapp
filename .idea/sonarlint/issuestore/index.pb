@@ -11,3 +11,11 @@ J
 `users-web-app/src/main/java/com/gergo/exercise/users_web_app/controllers/UserRestController.java,f\9\f999d5d1180a6f1297d51a3d587ca8a350d976fb
 Ö
 Uusers-web-app/src/main/java/com/gergo/exercise/users_web_app/service/UserService.java,9\7\97665298a2fa3fbbc0a73358a6b8ee28d5ec5325
+}
+Musers-web-app/src/main/java/com/gergo/exercise/users_web_app/models/Tank.java,1\c\1c6f5170867611680ec95c759c9252d7aeb3a28e
+Å
+Qusers-web-app/src/main/java/com/gergo/exercise/users_web_app/models/TankType.java,3\7\371e637ab7f15027d04fae7cb0a85274720009cc
+Ö
+Uusers-web-app/src/main/java/com/gergo/exercise/users_web_app/models/Manufacturer.java,6\a\6a7640959349068b6c80038bbe205e8cb73f904c
+Ä
+Pusers-web-app/src/main/java/com/gergo/exercise/users_web_app/models/Country.java,3\8\38a2159ec95e71d387f41e9292e33cbbfb352657
