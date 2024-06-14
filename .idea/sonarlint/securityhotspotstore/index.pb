@@ -25,3 +25,11 @@ k
 ;tankdata-web-app/src/main/java/com/gergo/exercise/Main.java,5\7\5714e5ca236ec9218bb6014f72d3a87dd92ab7ee
 P
  tankdata-web-app/settings.gradle,c\e\ce9f7713d98cca93f8b190f6c5bc8edbd3cc75db
+Å
+Qtankdata-web-app/src/main/java/com/gergo/exercise/controllers/UserController.java,3\8\38e7bbe9c4c6a0b490c6a290860941b33cf9727a
+J
+users-web-app/build.gradle,9\1\91cd5cbc02d44856777d26fe16e4fa7c10a0d018
+z
+Jtankdata-web-app/src/main/java/com/gergo/exercise/service/UserService.java,a\8\a89c39d6d0939679d0d2945ce5c4b2b3de3451fe
+Ö
+Utankdata-web-app/src/main/java/com/gergo/exercise/controllers/UserRestController.java,f\f\ff8411193b22099e4e8717c7d4ba0f25c722ef2b

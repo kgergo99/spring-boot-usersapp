@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+<div th:fragment="user-fragment">
+  <div class="card">
+    <h2 th:text="${user.name}">User Name</h2>
+    <div class="language"><strong>Language:</strong> <span th:text="${user.language}">Language</span></div>
+    <div class="id"><strong>ID:</strong> <span th:text="${user.id}">User ID</span></div>
+    <div class="version"><strong>Version:</strong> <span th:text="${user.version}">Version</span></div>
+    <div class="bio" th:text="${user.bio}">User Bio</div>
+  </div>
+</div>
+</body>
+</html>
