@@ -19,3 +19,5 @@ Qusers-web-app/src/main/java/com/gergo/exercise/users_web_app/models/TankType.ja
 Uusers-web-app/src/main/java/com/gergo/exercise/users_web_app/models/Manufacturer.java,6\a\6a7640959349068b6c80038bbe205e8cb73f904c
 €
 Pusers-web-app/src/main/java/com/gergo/exercise/users_web_app/models/Country.java,3\8\38a2159ec95e71d387f41e9292e33cbbfb352657
+…
+Uusers-web-app/src/main/java/com/gergo/exercise/users_web_app/service/TankService.java,5\7\57c1bec8902d7ac5e673dc27f602d51eb569e5a2
