@@ -16,6 +16,7 @@ public class TankService {
     static {
         for (int i = 0; i<10; i++){
             tanks.add(new Tank(
+                    i,
                     "Test tank #" + i,
                     TankType.LIGHT,
                     12.2d,

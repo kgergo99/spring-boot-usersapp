@@ -1,5 +1,7 @@
 package com.gergo.exercise.models;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,7 +9,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+
 public class Tank {
+    private long id;
     private String name;
     private TankType type;
     private double weightTons;
