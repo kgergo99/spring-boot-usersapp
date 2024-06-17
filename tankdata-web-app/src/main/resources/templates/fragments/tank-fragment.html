@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+<div th:fragment="tank-fragment">
+    <div class="card">
+        <h2 th:text="${tank.name}">Tank Name</h2>
+        <div class="type"><strong>Type:</strong> <span th:text="${tank.type}">Tank Type</span></div>
+        <div class="weight"><strong>Weight:</strong> <span th:text="${tank.weightTons}">Weight (tons)</span></div>
+        <div class="armor"><strong>Armor Thickness:</strong> <span th:text="${tank.armorThicknessMm}">Armor Thickness (mm)</span></div>
+        <div class="gun"><strong>Main Gun Caliber:</strong> <span th:text="${tank.mainGunCaliberMm}">Main Gun Caliber (mm)</span></div>
+        <div class="manufacturer"><strong>Manufacturer:</strong> <span th:text="${tank.manufacturer}">Manufacturer</span></div>
+        <div class="country"><strong>Country:</strong> <span th:text="${tank.country}">Country</span></div>
+        <div class="production-period"><strong>Production Period:</strong> <span th:text="${tank.productionYearStart} + ' - ' + ${tank.productionYearEnd}">Production Period</span></div>
+    </div>
+</div>
+</body>
+</html>

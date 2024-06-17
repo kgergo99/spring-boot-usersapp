@@ -15,6 +15,6 @@ public class Tank {
     private double mainGunCaliberMm;
     private Manufacturer manufacturer;
     private Country country;
-    private int productionStart;
-    private int productionEnd;
+    private int productionYearStart;
+    private int productionYearEnd;
 }

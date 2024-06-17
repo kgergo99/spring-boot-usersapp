@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Tank List</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}">
+</head>
+<body>
+<div class="grid-container">
+    <div th:each="tank : ${tanks}">
+        <div th:replace="fragments/tank-fragment :: tank-fragment"></div>
+    </div>
+</div>
+</body>
+</html>

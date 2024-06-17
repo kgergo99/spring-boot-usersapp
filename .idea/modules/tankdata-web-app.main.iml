@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
-  <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="dad2ffaa-78e8-460b-a1fd-070543f7a797" />
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/../../tankdata-web-app/build/generated/sources/annotationProcessor/java/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../tankdata-web-app/build/generated/sources/annotationProcessor/java/main" isTestSource="false" generated="true" />
+    </content>
   </component>
 </module>

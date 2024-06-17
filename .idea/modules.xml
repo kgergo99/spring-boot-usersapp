@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-usersapp.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-usersapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tankdata-web-app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tankdata-web-app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/users-web-app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/users-web-app.main.iml" />
     </modules>
   </component>
