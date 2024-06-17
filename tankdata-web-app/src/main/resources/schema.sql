@@ -1,3 +1,15 @@
+CREATE TABLE countries (
+    country_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE manufacturers (
+    manufacturer_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    country_id INT,
+    FOREIGN KEY (country_id) REFERENCES countries(country_id)
+);
+
 CREATE TABLE tanks (
     tank_id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
@@ -10,17 +22,5 @@ CREATE TABLE tanks (
     production_year_start INT,
     production_year_end INT,
     FOREIGN KEY (manufacturer_id) REFERENCES manufacturers(manufacturer_id),
-    FOREIGN KEY (country_id) REFERENCES countries(country_id)
-);
-
-CREATE TABLE countries (
-    country_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL
-);
-
-CREATE TABLE manufacturers (
-    manufacturer_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL,
-    country_id INT,
     FOREIGN KEY (country_id) REFERENCES countries(country_id)
 );
